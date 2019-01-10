@@ -32,5 +32,11 @@ require "rna_transcription"
         end
       end
 
+      context "test_rna_complement" do
+        it "returns rna complement" do
+          expect(RnaTranscription.complement_of_dna("ACGTCCG")).to eql("UGCAGGC")
+        end
+      end
+
     end
   end
