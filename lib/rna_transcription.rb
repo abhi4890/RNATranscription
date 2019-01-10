@@ -8,6 +8,7 @@ class RnaTranscription
     elsif while i < l
             if str[i] == 'A'
               str2 +=  'U'
+
             elsif str[i] == 'C'
               str2 = str2 + 'G'
             elsif str[i] == 'G'
