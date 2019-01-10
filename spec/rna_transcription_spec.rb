@@ -20,6 +20,12 @@ require "rna_transcription"
         end
       end
 
+      context "test_rna_complement_of_thymine_is_adenine" do
+        it "returns string A" do
+          expect(RnaTranscription.complement_of_dna("T")).to eql("A")
+        end
+      end
+
 
     end
   end

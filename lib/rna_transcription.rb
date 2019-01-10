@@ -8,6 +8,8 @@ class RnaTranscription
           return 'G'
     elsif str=='G'
       return 'C'
+    elsif str=='T'
+      return 'A'
       end
     return str2
     end
