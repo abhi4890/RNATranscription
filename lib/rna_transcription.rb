@@ -10,6 +10,8 @@ class RnaTranscription
       return 'C'
     elsif str=='T'
       return 'A'
+    elsif str=='A'
+      return 'U'
       end
     return str2
     end

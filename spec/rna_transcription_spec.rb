@@ -26,6 +26,11 @@ require "rna_transcription"
         end
       end
 
+      context "test_rna_complement_of_adenine_is_uracil" do
+        it "returns string U" do
+          expect(RnaTranscription.complement_of_dna("A")).to eql("U")
+        end
+      end
 
     end
   end
