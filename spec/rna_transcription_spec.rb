@@ -8,5 +8,11 @@ require "rna_transcription"
         end
       end
 
+      context "rna_complement_of_cytosine_is_guanine" do
+        it "returns string G" do
+          expect(RnaTranscription.complement_of_dna("C")).to eql("G")
+        end
+      end
+
     end
   end
