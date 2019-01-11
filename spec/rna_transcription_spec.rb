@@ -8,31 +8,31 @@ require "rna_transcription"
         end
       end
 
-      context "rna_complement_of_cytosine_is_guanine" do
+      context "rna complement of cytosine is guanine" do
         it "returns string G" do
           expect(RnaTranscription.complement_of_dna("C")).to eql("G")
         end
       end
 
-      context "rna_complement_of_guanine_is_cytosin" do
+      context "rna complement of guanine is cytosin" do
         it "returns string C" do
           expect(RnaTranscription.complement_of_dna("G")).to eql("C")
         end
       end
 
-      context "test_rna_complement_of_thymine_is_adenine" do
+      context "test rna complement of thymine is adenine" do
         it "returns string A" do
           expect(RnaTranscription.complement_of_dna("T")).to eql("A")
         end
       end
 
-      context "test_rna_complement_of_adenine_is_uracil" do
+      context "test rna complement of adenine is uracil" do
         it "returns string U" do
           expect(RnaTranscription.complement_of_dna("A")).to eql("U")
         end
       end
 
-      context "test_rna_complement" do
+      context "test rna complement" do
         it "returns rna complement" do
           expect(RnaTranscription.complement_of_dna("ACGTCCG")).to eql("UGCAGGC")
         end

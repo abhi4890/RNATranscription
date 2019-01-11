@@ -4,7 +4,7 @@ class RnaTranscription
     str2 = ""
     i = 0
     if l == 0
-      return ""
+       ""
     elsif while i < l
             if str[i] == 'A'
               str2 = str2 + 'U'
@@ -15,7 +15,7 @@ class RnaTranscription
             elsif str[i] = 'T'
               str2 = str2 + 'A'
             end
-            i = i + 1;
+            i = i + 1
           end
     end
     return str2
